@@ -11,8 +11,16 @@ The project is currently a **work-in-progress**.
 ### Prerequisites
 Before running the script, you require the following:
 * Python 3.8+
+* requests library
+* BeautifulSoup library
 
 ### Running Taylor Stacks
+Before running the scraper, you have to install the following libraries:
+```
+pip install requests
+pip install beautifulsoup4
+```
+
 Running Taylor Stacks is very straight forward thus far. All you have to do is execute:
 ```
 python scraper.py
