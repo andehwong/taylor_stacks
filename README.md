@@ -17,17 +17,16 @@ Before running the script, you require the following:
 ### Running Taylor Stacks
 Before running the scraper, you have to install the following libraries:
 ```
-pip install requests
-pip install beautifulsoup4
+pip install -r requirements.txt
 ```
 
 Running Taylor Stacks is very straight forward thus far. All you have to do is execute:
 ```
-python scraper.py
+python main.py
 ```
 or 
 ```
-python3 scraper.py
+python3 main.py
 ```
 ... depending on how many versions of Python you have running on your local machine.
 
